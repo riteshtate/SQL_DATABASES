@@ -141,3 +141,5 @@ limit 4;
 -- execution sequence
 -- from, where, group by, having, select, order by, limit
  
+ select avg(salary) from salaries;
+ 
