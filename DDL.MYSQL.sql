@@ -55,6 +55,7 @@ use ritesh;
 -- 5) truncate 
 -- truncate table tablename;
 
+-- 6) 
 
 
 
