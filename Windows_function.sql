@@ -21,7 +21,7 @@ row_number() over(partition by emp_no) as row_num
 from salaries;
 
 select emp_no, salary,
-row_number() over(partition by emp_no order by salary desc) as row_num
+row_number() over(partition  by emp_no order by salary desc) as row_num
 from salaries;
 
 select a.emp_no,a.salary,a.row_num
