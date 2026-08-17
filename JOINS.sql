@@ -73,7 +73,7 @@ select * from info;
 -- SELF JOIN
 
 select a.emp_no, a.emp_name, b.emp_name as manager_name, a.manager_no
-from info a join info b  on a.manager_no = b.emp_no;
+from info a join info b  on a.manager_no = b.manager_no;
 
 -- cross join 
 
